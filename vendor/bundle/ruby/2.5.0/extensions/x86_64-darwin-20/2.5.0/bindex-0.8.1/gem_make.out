@@ -1,0 +1,15 @@
+current directory: /Users/vidyush/Documents/railsfriends/friends/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/vidyush/.rbenv/versions/2.5.1/bin/ruby -I /Users/vidyush/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210511-49517-caz6mv.rb extconf.rb
+creating Makefile
+
+current directory: /Users/vidyush/Documents/railsfriends/friends/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /Users/vidyush/Documents/railsfriends/friends/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/vidyush/Documents/railsfriends/friends/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20210511-49517-gc6to4/skiptrace/internal
