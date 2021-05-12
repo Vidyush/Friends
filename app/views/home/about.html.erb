@@ -1,1 +1,6 @@
 <h1> About us!! <h1>
+<% if user_signed_in? %>
+<p>Hi I am <b><%= @about_me.email.split("@")[0]%></b> and my Email id is <i><%= @about_me.email%></i></p>
+<%else%>
+<p> Welcome to this <b>Friends App</b>. You can create list of your friends you meet with help of this app. </p>
+<% end %>
